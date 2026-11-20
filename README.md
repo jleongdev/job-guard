@@ -6,6 +6,8 @@ Job Guard is an explainable AI system that flags suspicious job postings. It use
 
 Built for **FIT1061 Introduction to Artificial Intelligence** at Monash University Malaysia (High Distinction project).
 
+![Job Guard demo](images/demo.png)
+
 ---
 
 ## ✨ Highlights
@@ -153,7 +155,10 @@ All decision rules were set **before** running each experiment, and all tuning w
 ```
 job-guard/
 ├── H2_comprehensive_project_implementation.ipynb   # full pipeline, experiments, report
-├── Dataset.zip                                     # dataset from Kaggle
+├── images/                                         # figures and demo screenshots for this README
+│   ├── demo.png
+│   ├── test_comparison.png
+│   └── hill_climbing.png
 ├── requirements.txt
 └── README.md
 ```
