@@ -6,8 +6,6 @@ Job Guard is an explainable AI system that flags suspicious job postings. It use
 
 Built for **FIT1061 Introduction to Artificial Intelligence** at Monash University Malaysia (High Distinction project).
 
-![Job Guard demo](images/demo.png)
-
 ---
 
 ## ✨ Highlights
@@ -121,11 +119,6 @@ A state is `(w1, w2, w3, w4, b)`. Each step tries ±0.05 on every value and move
 - **Fairness:** the official system's false-alarm gap between employers with and without a logo is 0.8 points. The length-normalised version stays within the 10-point target at 6.1 points.
 
 > Why not accuracy? Only about 4% of postings are fake, so a model that never flags anything still scores 95.7% accuracy while catching zero scams. Job Guard is judged on **recall, precision and F1** for the fake class.
-
-<p align="center">
-  <img src="images/test_comparison.png" width="48%" alt="Test-set comparison chart">
-  <img src="images/hill_climbing.png" width="48%" alt="Hill climbing F1 per step and per restart">
-</p>
 
 ---
 
